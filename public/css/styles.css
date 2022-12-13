@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+.w-100{
+    width: 100%;
+    display: block;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-yellow{
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.logo{
+    padding: 15px;
+    width: 165px;
+}
+
+.fa-magnifying-glass{
+    background-color: #ebebeb;
+}
+
+.nav-vender,
+.nav-usuario{
+    margin-top: 15px;
+}
+
+.none-decoration{
+    text-decoration: none;
+    color: black;
+}
+
+.center{
+    text-align: center;
+    padding: 15px;
+}
+
+.burger-menu{
+    background-color:#1259c3;
+    color: white;
+    text-align: center;
+    width:55px;
+    border-radius:10%;
+    margin:auto;
+    margin-top: 20px;
+    padding:15px;
+    line-height: 25px;
+}
+
+.footer-01,
+.footer-02,
+.footer-03{
+    text-align: center;
+    padding: 40px;
+}
+
+.fa-credit-card,
+.fa-gift,
+.fa-user-shield{
+    font-size: 30px;
+    color:#1259c3;
+    padding: 15px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.main{
+    text-align: center;
+    width: 90 vh;
+    background-color: #ebebeb;
+    padding: 15px;
+}
+
+.art{
+    margin: auto;
+    padding: 10px;
+    border: 15px;
+}
+
+.fa-truck{
+    color: #39b54a;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.productos{
+    border: solid 1px #ebebeb;
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+.nombre{
+    color: #666;
+}
+
+.off{
+    color:#39b54a ;
+}
+
+.product-shadow{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+@media (min-width:481px){
+    /*tablet*/
+
+}
+
+@media(min-width:769px){
+    /*laptop*/
+    .product-shadow{
+        box-shadow: none;
+    }
+
+    .descrption{
+        display: none;
+    }
+    
+    }
+
+@media (min-width: 1281px){
+    /*desktop*/
+}
