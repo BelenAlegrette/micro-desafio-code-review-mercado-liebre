@@ -5,10 +5,20 @@ const app = express();
 
   app.use(express.static(path.join(__dirname, "public")));
 
+  /*const PORT= process.env.PORT || 3001;
 
-  app.listen(3000, () =>{
+
+  app.listen(PORT, () =>{
     console.log("El servidor prendió");
   });
+*/
+
+
+  const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`Se prendió en el puerto ${PORT}`);
+});
+
   
 
 //VERBO "GET" HTTP (ruta principal raíz)mando archivo html al navegador con sendFile --> path)
