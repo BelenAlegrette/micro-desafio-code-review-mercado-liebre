@@ -411,6 +411,7 @@ border: solid 2px #1259c3;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+  display: none;
 }
 
 .burger-menu{
