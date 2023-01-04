@@ -113,6 +113,16 @@ body{
   font-size: 18px;
 }
 
+.main-header{
+  width: 90vw;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 /*MAIN*/
 .main{
@@ -422,6 +432,10 @@ border: solid 2px #1259c3;
   flex-wrap: wrap;
 }
 
+.main-header{
+  margin: 0px;
+  justify-content: center;
+}
 .burger-menu{
   display: none;
 }
