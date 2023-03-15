@@ -206,7 +206,6 @@ body{
 .seccion-footer{
   text-align: center;
   background-color: #FFF;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 40px;
@@ -227,7 +226,6 @@ body{
 .p-footer{
   font-size: 14px;
   padding: 5px;
-  width: 30%;
   text-align: center;
 }
 
