@@ -64,7 +64,6 @@ body{
 
 .listas{
   display: none;
-  text-align: center;
 }
 
 .nav-vender,
@@ -452,6 +451,14 @@ border: solid 2px #1259c3;
 }
 
 @media (min-width: 769px){
+  
+  .nav-vender, .nav-usuario {
+    max-width: 50%;
+  }
+  .listas {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .main{
     padding: 10px;
