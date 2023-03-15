@@ -4,11 +4,3 @@
   box-sizing: border-box;
 }
 
-input {
-  min-width: 0;
-}
-
-li {
-  list-style: none;
-  padding: 0;
-}
