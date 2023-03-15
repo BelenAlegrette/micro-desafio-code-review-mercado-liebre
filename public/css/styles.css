@@ -147,10 +147,6 @@ body{
   flex-grow: 0.2;
 }
 
-.product-shadow{
-  box-shadow: 0px 0px 10px rgb(100,100,100);
-}
-
 .div-productos{
   border-top: solid 1px #ebebeb;
   padding: 15px;
