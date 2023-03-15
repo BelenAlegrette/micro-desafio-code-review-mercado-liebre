@@ -6,57 +6,57 @@
 
 .w-50{
   width: 50%;
-  display: block;
-
 }
 
 .w-100{
   width: 100%;
-  display: block;
 }
 
 body{
   font-family: 'Roboto', sans-serif;
   background-color: #ebebeb;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 /*HEADER*/
 .bg-yellow{
   background-color: #EAC926;
   padding: 10px;
-  text-align: center;
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
 
 .texto-header{
-  text-align: right;
+  text-align: center;
+  margin: 15px;
+  width: 100%;
 }
 
 .logo{
   padding: 15px;
-  width: 165px;
 }
 
 .buscar{
-  padding: 15px;
   align-self: center;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   width: 50%;
   flex-grow: 0.20;
+  margin: auto;
 }
 
 .input-buscar{
   padding: 10px;
   border: none;
   width: 80%;
+  flex-grow: 1;
 }
 
 .button-buscar{
   background-color: white;
-  padding: 10px;
+  padding: 11px;
   border: none;
-  margin: 0px;
 }
 
 
@@ -110,16 +110,6 @@ body{
   padding:15px;
   line-height: 25px;
   font-size: 18px;
-}
-
-.main-header{
-  width: 90vw;
-  margin: auto;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
 }
 
 
@@ -221,11 +211,11 @@ body{
   text-align: center;
   background-color: #FFF;
   display: flex;
-  padding: 40px 40px;
+  justify-content: space-between;
   align-items: center;
+  padding: 40px 40px;
   margin-top:30px;
 }
-
 
 .iconos-footer{
   font-size: 30px;
@@ -256,7 +246,7 @@ body{
 
 /*LOGIN*/
 
-.formulario-register{/*ver xq es body-form*/
+.formulario-register{
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -426,19 +416,14 @@ border: solid 2px #1259c3;
 .texto-header{
   align-self: center;
   font-size: 12px;
-}
-
-.listas{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  width: 30%;
 }
 
 .main-header{
   margin: 0px;
   justify-content: center;
 }
+  
 .burger-menu{
   display: none;
 }
@@ -452,7 +437,8 @@ border: solid 2px #1259c3;
   display: inline-block;
   width: 100%;
 }
-  .buscar{
+ 
+ .buscar{
   width: 30%;
 }
 
